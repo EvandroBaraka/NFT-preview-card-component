@@ -1,0 +1,104 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+h1{
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    margin: 15px 0 0 0;
+}
+
+p{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    padding: 20px 0;
+}
+
+.link:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.container{
+    max-width: 350px;
+    margin: auto;
+    margin-top: 5vh;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.image-box{
+    border-radius: 10px;
+    height: 300px;
+    background-color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+
+.view{
+    margin: auto;
+}
+
+.image{
+    max-width: 300px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.image:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.dados{
+    display: flex;
+    color: hsl(215, 51%, 70%);   
+    margin: 10px 0 30px;
+    align-items: center; 
+}
+
+.icon-ethereum{
+    padding: 0 5px 0 0;
+}
+
+.valor{
+    display: inline;
+    color: hsl(178, 100%, 50%);
+    margin-right: 110px;
+}
+
+.contador{
+    display: inline;
+}
+
+.created{
+    display: flex;
+    border-top: solid 1px hsl(215, 32%, 27%);
+    color: hsl(215, 51%, 70%);
+    padding: 20px 0 0; 
+    margin: 10px 0 0;
+    align-items: center;
+}
+
+.avatar{
+    display: inline;
+    max-width: 12%;
+    border-radius: 50%;
+    border: solid 1px white;
+    margin: 0 20px 0 0;    
+}
+
+.avatar-text{
+    display: inline;    
+}
+
+a{
+    padding-bottom: 15px;
+    color:hsl(0, 0%, 100%);
+}
+
+.attribution{
+    margin: 15px;
+    color: white;
+}
